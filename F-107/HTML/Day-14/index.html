@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      li {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div align="left" style="float: left">
+          <img
+            src="./img/logo.png"
+            height="60"
+            width="60"
+            alt="logo"
+            title="logo"
+          />
+        </div>
+        <div align="right">
+          <ul type="none">
+            <b><li>Home</li></b>
+            <b><li>About</li></b>
+            <b><li>Shop</li></b>
+            <b><li>Contact</li></b>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <img width="100%" src="./img/wallpaper.jpg" alt="" />
+      </section>
+      <section id="about">
+        <h2 align="center">About Me</h2>
+        <hr align="center" style="width: 10rem; background-color: dodgerblue" />
+        <hr align="center" style="width: 10rem; background-color: dodgerblue" />
+        <br />
+        <div style="margin-left: 10rem; margin-right: 5rem; float: left">
+          <img height="400" width="350" src="./img/hacker.jpg" alt="" />
+        </div>
+        <div style="margin-top: 3rem">
+          <h3 style="font-size: 2.5rem; color: dodgerblue">
+            Hi, I'm Abdullah Al Maruf
+          </h3>
+          <p style="font-size: 20px; line-height: 2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem, <br />
+            ex dicta eius tempora sint nostrum id ipsam eum corrupti, vitae
+            harum <br />
+            necessitatibus eligendi autem voluptatem facilis quasi iure, animi
+            <br />
+            reprehenderit quisquam illo ipsum consequuntur. Reprehenderit, iure.
+            <br />
+            Maiores nihil sapiente dolores dignissimos et facilis cum explicabo.
+            <br />
+            Nobis vitae distinctio aliquid eveniet.
+            <br /><br /><br />
+          </p>
+        </div>
+      </section>
+      <section id="shop" style="float: none">
+        <h2 align="center">Our Shop</h2>
+        <hr align="center" style="width: 10rem; background-color: dodgerblue" />
+        <hr align="center" style="width: 10rem; background-color: dodgerblue" />
+        <div class="row" style="margin-left: 10rem">
+          <img src="./img/ram.jpg" title="ram" width="300" alt="" />
+          <img src="./img/casing.png" title="casing" width="300" alt="" />
+          <img src="./img/hdd.jpeg" title="hdd" width="300" alt="" />
+        </div>
+        <div class="row" style="margin-left: 10rem">
+          <img src="./img/ssd.jpg" title="ssd" width="300" alt="" />
+          <img src="./img/monitor.jpg" title="monitor" width="300" alt="" />
+          <img src="./img/ram.jpg" title="ram" width="300" alt="" />
+        </div>
+      </section>
+      <br />
+      <section id="contact">
+        <h2 align="center">Contact Us</h2>
+        <hr align="center" style="width: 10rem; background-color: dodgerblue" />
+        <hr align="center" style="width: 10rem; background-color: dodgerblue" />
+        <br />
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7114.366634285147!2d91.98239899499055!3d24.937726272686447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375052871a02ef53%3A0x73ad25272d80f579!2sJalalabad%20Cantonment%20Public%20School%20%26%20College!5e1!3m2!1sen!2sbd!4v1625638520551!5m2!1sen!2sbd"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <h2 align="center">Please Submit This Form</h2>
+        <hr align="center" style="width: 20rem; background-color: dodgerblue" />
+        <hr align="center" style="width: 20rem; background-color: dodgerblue" />
+        <br /><br />
+        <form align="center">
+          <label>Your Name</label>
+          <input type="text" required placeholder="Enter your name"/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label>Date of Birth</label>
+          <input type="date">
+          <br><br>
+          <label>Your Father's Name</label>
+          <input type="text" required placeholder="Father's Name"/>
+          <label>Your Mother's Name</label>
+          <input type="text" required placeholder="Mother's Name"/>
+          <br><br>
+          <label>Your Email</label>
+          <input type="email" required placeholder="Enter Your Email"/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label>Mobile</label>
+            <input type="number" required placeholder="Enter Your Phone Number">
+          <br /><br />
+          <label>Create Password</label>
+          <input type="password" required placeholder="*************" />
+          <label>Confirm Password</label>
+          <input type="password" required placeholder="*************" />
+          <br /><br />
+          <label>Education</label>
+          <input type="checkbox" />
+        <span>SSC</span>
+        <input type="checkbox" />
+        <span>HSC</span>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+        Sex
+        <input type="radio" name="gender" value="male" />
+        <span>Male</span>
+        <input type="radio" name="gender" value="female" />
+        <span>Female</span>
+        <br>
+        <br>
+        <textarea style="resize: none;"" name="" id="" cols="60" rows="10"></textarea>
+        <br><br><button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br><br>
+        </form>
+      </section>
+    </main>
+    <footer align="center">
+      &copy; 2021 All rights reserved by Md. Maruf Sarker
+    </footer>
+  </body>
+</html>
