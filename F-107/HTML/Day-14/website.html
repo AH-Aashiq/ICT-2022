@@ -4,23 +4,25 @@
     <title>Personal Portfolio</title>
     <style>
       ul {
-        margin-right: 30px;
+        margin-right: 50px;
+        margin-top: 20px;
       }
       li {
         display: inline-block;
-        padding: 5px 10px 5px 10px;
-        margin-top: 20px;
+        padding:10px;
+        margin: 0 20px 0 20px;
         background-color: dodgerblue;
+        border-radius: 5px;
       }
     </style>
   </head>
   <body>
     <header>
-      <nav>
-        <div style="float: left">
+      <nav style="display: flex; justify-content: space-between">
+        <div>
           <img src="./img/logo.png" height="80" alt="logo" title="Logo" />
         </div>
-        <div align="right">
+        <div>
           <ul type="none">
             <b><li>Home</li></b>
             <b><li>About</li></b>
@@ -32,11 +34,9 @@
     </header>
     <main>
       <section>
-        <img
+        <img style="background-size: cover;background-position: center center; height: 700px; width: 100%;"
           src="./img/wallpaper.jpg"
           alt="wallpaper"
-          height="60%"
-          width="100%"
         />
       </section>
       <section>
@@ -50,15 +50,12 @@
           style="width: 10rem; height: 0.1rem; background-color: dodgerblue"
         />
         <br />
-        <div style="margin-left: 20rem">
-          <div style="margin-left: 10rem; margin-right: 5rem; float: left">
+        <div style="display: flex; justify-content: space-evenly">
+          <div>
             <img height="400" width="350" src="./img/hacker.jpg" />
           </div>
-          <div>
-            <h3 style="font-size: 40px; color: dodgerblue">
-              <br />
-              Hi, I'm Abdullah Al Maruf
-            </h3>
+          <div style="margin-top: 30px">
+            <h3>Hi, I'm Abdullah Al Maruf'</h3>
             <p style="font-size: 20px; line-height: 2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Exercitationem, <br />
@@ -73,8 +70,31 @@
               explicabo.
               <br />
               Nobis vitae distinctio aliquid eveniet.
-              <br /><br /><br />
             </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 align="center">Our Shop</h2>
+        <hr
+          align="center"
+          style="width: 10rem; height: 0.1rem; background-color: dodgerblue"
+        />
+        <hr
+          align="center"
+          style="width: 10rem; height: 0.1rem; background-color: dodgerblue"
+        />
+        <br />
+        <div style="margin-left: 400px">
+          <div>
+            <img src="./img/casing.png" width="300" style="margin: 20px;padding: 10px; box-shadow: 5px 5px 10px #999">
+            <img src="./img/hdd.jpeg" width="300" style="margin: 20px;padding: 10px; box-shadow: 5px 5px 10px #999">
+            <img src="./img/monitor.jpg" width="300" style="margin: 20px;padding: 10px; box-shadow: 5px 5px 10px #999">
+          </div>
+          <div>
+            <img src="./img/ram.jpg" width="300" style="margin: 20px;padding: 10px; box-shadow: 5px 5px 10px #999">
+            <img src="./img/ssd.jpg" width="300" style="margin: 20px;padding: 10px; box-shadow: 5px 5px 10px #999">
+            <img src="./img/casing.png" width="300" style="margin: 20px;padding: 10px; box-shadow: 5px 5px 10px #999">
           </div>
         </div>
       </section>
@@ -98,6 +118,63 @@
           loading="lazy"
         ></iframe>
       </section>
+      <section>
+        <h2 align="center">Please Submit This Form</h2>
+        <hr
+          align="center"
+          style="width: 10rem; height: 0.1rem; background-color: dodgerblue"
+        />
+        <hr
+          align="center"
+          style="width: 10rem; height: 0.1rem; background-color: dodgerblue"
+        />
+        <br />
+        <form align="center">
+          <label>Your Name</label>
+          <input type="text" required placeholder="Enter your name"/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label>Date of Birth</label>
+          <input type="date">
+          <br><br>
+          <label>Your Father's Name</label>
+          <input type="text" required placeholder="Father's Name"/>
+          <label>Your Mother's Name</label>
+          <input type="text" required placeholder="Mother's Name"/>
+          <br><br>
+          <label>Your Email</label>
+          <input type="email" required placeholder="Enter Your Email"/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label>Mobile</label>
+            <input type="number" required placeholder="Enter Your Phone Number">
+          <br /><br />
+          <label>Create Password</label>
+          <input type="password" required placeholder="*************" />
+          <label>Confirm Password</label>
+          <input type="password" required placeholder="*************" />
+          <br /><br />
+          <label>Education</label>
+          <input type="checkbox" />
+        <span>SSC</span>
+        <input type="checkbox" />
+        <span>HSC</span>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+        Gender
+        <input type="radio" name="gender" value="male" />
+        <span>Male</span>
+        <input type="radio" name="gender" value="female" />
+        <span>Female</span>
+        <br>
+        <br>
+        <textarea style="resize: none;"" name="" id="" cols="60" rows="10"></textarea>
+        <br><br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br><br>
+        </form>
+      </section>
     </main>
+    <footer align="center">
+      &copy; 2021 All rights reserved by Md. Maruf Sarker
+    </footer>
   </body>
 </html>
