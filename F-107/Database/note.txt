@@ -85,3 +85,15 @@ select data -->
 		ORDER BY Name DESC;
 		
 	// by default ascending order a kaj kore
+	
+arithmetic operator
+	select 5 + 2;
+	ans: 7
+	select 5 - 2;
+	ans: 3
+	select 5 * 2;
+	ans: 10
+	select 5 / 2;
+	ans: 2.5000
+	select 5 % 2;
+	ans: 1
