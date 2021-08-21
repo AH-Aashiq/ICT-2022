@@ -5,3 +5,6 @@ ___
 ![Login Form](./loginForm.png)
 ![Education Board Bangladesh](./education.png)
 ___
+## Parent Child Relation
+___
+![Parent Child Relation](./parent-child-relation.png)
